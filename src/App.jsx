@@ -11,7 +11,7 @@ function App() {
       <UserCard 
         name='Ксения Жужлева'
         role='простой смертный'
-        avatarUrl={'../public/avatar.jpg'}
+        avatarUrl='.\assets\avatar.jpg'
         isOnline={true}
       />
       <TaskList />
