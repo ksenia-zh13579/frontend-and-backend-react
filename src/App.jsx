@@ -2,6 +2,7 @@ import './App.css';
 import Greeting from './Greeting';
 import UserCard from './UserCard';
 import TaskList from './TaskList';
+import avatarUrl from './assets/avatar.jpg'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <UserCard 
         name='Ксения Жужлева'
         role='простой смертный'
-        avatarUrl='.\assets\avatar.jpg'
+        avatarUrl={avatarUrl}
         isOnline={true}
       />
       <TaskList />
